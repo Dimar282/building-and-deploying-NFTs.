@@ -1,8 +1,7 @@
-```json
 {
-  "nae": "NFT Builder Sample",
+  "name": "NFT Builder Sample",
   "description": "A sample NFT created with NFT Builder Suite",
-  "imge": "ipfs://QmYourImageHashHere",
+  "image": "ipfs://QmYourImageHashHere",
   "attributes": [
     {
       "trait_type": "Level",
@@ -14,4 +13,3 @@
     }
   ]
 }
-```
