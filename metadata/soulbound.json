@@ -1,0 +1,17 @@
+```json
+{
+  "name": "Soulbound Certificate",
+  "description": "A non-transferable Soulbound NFT representing an on-chain credential",
+  "image": "ipfs://QmYourImageHashHere",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Certificate"
+    },
+    {
+      "trait_type": "Issued By",
+      "value": "NFT Builder Suite"
+    }
+  ]
+}
+```
