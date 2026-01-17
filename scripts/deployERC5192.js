@@ -2,12 +2,12 @@
 const hre = require("hardhat");
 
 async function main() {
-  const ERC5192 = await hre.ethers.getContractFactory("SoulboundERC5192");
+  const ERC512 = await hre.ethers.getContractFactory("SoulboundERC5192");
   const sbt = await ERC5192.deploy();
 
   await sbt.waitForDeployment();
 
-  console.log("ERC-5192 Soulbound NFT deployed to:", await sbt.getAddress());
+  console.log(ERC-5192 Soulbound NFT deployed to:", await sbt.getAddress());
 }
 
 main().catch((error) => {
