@@ -74,3 +74,20 @@ Example metadata can be found in the `metadata/` directory.
 
 MIT License
 
+## Supported Token Standards
+
+This repository supports multiple Ethereum token standards:
+
+### ERC-721 (Single NFTs)
+
+* Unique, non-fungible tokens
+* Ideal for 1-of-1 artwork or collectibles
+
+### ERC-1155 (Multi-Tokens)
+
+* Semi-fungible and fungible tokens
+* Batch minting support
+* Lower gas costs
+* Ideal for gaming assets, editions, and collections
+
+You can deploy and use both standards independently.
