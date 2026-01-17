@@ -105,3 +105,21 @@ They cannot be sold or transferred and are typically used for:
 
 This implementation follows the ERC-721 standard while disabling all transfers.
 
+## ERC-5192 Soulbound Tokens (Official Standard)
+
+ERC-5192 defines a minimal interface for Soulbound Tokens (SBTs).
+Tokens are permanently locked and non-transferable.
+
+### Key Characteristics
+
+* No transfer or approval functions
+* `locked(uint256 tokenId)` query
+* Wallets and indexers can detect SBTs
+* Fully ERC-721 compatible
+
+This implementation is suitable for:
+
+* On-chain credentials
+* Identity systems
+* Diplomas and certificates
+* DAO reputation badges
