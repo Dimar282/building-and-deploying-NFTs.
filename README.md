@@ -91,3 +91,17 @@ This repository supports multiple Ethereum token standards:
 * Ideal for gaming assets, editions, and collections
 
 You can deploy and use both standards independently.
+
+## Soulbound NFTs (SBT)
+
+Soulbound NFTs are non-transferable tokens permanently bound to a wallet.
+They cannot be sold or transferred and are typically used for:
+
+* Digital identities
+* Certificates and diplomas
+* DAO memberships
+* Reputation systems
+* Achievements and credentials
+
+This implementation follows the ERC-721 standard while disabling all transfers.
+
