@@ -1,0 +1,5 @@
+# Deploy ERC-721
+npx hardhat run scripts/deploy721.js --network sepolia
+
+# Deploy ERC-1155
+npx hardhat run scripts/deploy1155.js --network sepolia
