@@ -1,0 +1,17 @@
+```json
+{
+  "name": "Gold Token",
+  "description": "ERC-1155 multi-token example",
+  "image": "ipfs://QmYourImageHashHere",
+  "attributes": [
+    {
+      "trait_type": "Material",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    }
+  ]
+}
+```
