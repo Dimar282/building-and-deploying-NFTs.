@@ -1,16 +1,14 @@
-```json
 {
   "name": "nft-builder-suite",
   "version": "1.0.0",
   "description": "A complete NFT development starter repository",
   "scripts": {
     "compile": "hardhat compile",
-    "deplo": "hardhat run scripts/deploy.js"
-  ,
+    "deploy": "hardhat run scripts/deploy.js"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@openzeppelin/contracts": "^5.0.0",
     "hardhat": "^2.22.0"
   }
 }
-```
